@@ -64,3 +64,23 @@ h1 {
   cursor: pointer;
   font-weight: bold;
 }
+#regenBtn {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #b582b5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#regenBtn:hover {
+  background-color: #cb9dc9;
+  transform: scale(1.05);
+}
+#regenBtn:active {
+  transform: scale(0.95);
+}
